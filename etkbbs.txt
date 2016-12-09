@@ -1,0 +1,45 @@
+            Description of E Toolkit documentation and samples.
+            ===================================================
+
+
+What is the E Toolkit?
+---------------------
+The E Toolkit is the powerful editor toolkit used to build EPM (the OS/2
+2.x Enhanced Editor), LaMail (the OS/2 TCP/IP mail handler) and other
+applications.  This package includes documentation and sample code for
+version 5.51 of the toolkit.  (OS/2 2.0 shipped with version 5.50; OS/2
+2.1 shipped with version 5.51, which is also in the EPMBBS package which
+should be available the same place you got this package).
+
+
+Important disclaimer:
+---------------------
+The sample code for using the current version (5.51) of the E Toolkit and
+its Enhanced Multi-Line Edit control (E-MLE) is being made available for
+the benefit of those who need to use it now.  It is being released "as-is",
+with no promise of support, enhancement, or bug fixes.  In addition, you
+should be aware that we are currently working on a new, cleaner, API
+for the next major update to EPM, which is not necessarily compatible
+with the one used in this package.
+
+In mentioning the "next major update", we are not guaranteeing that this
+will ever be released outside of IBM.  (That is not a decision that we can
+make.)  We are currently developing EPM 5.60, which includes long line
+support, pop-up menus, and much more, and EPM 6.00, which is essentially
+a 32-bit version of EPM 5.60.
+
+If you have a need to develop on top of the newer E-MLE, then please send
+a note to Gennaro Cuomo (gcuomo at watson.IBM.com) describing why you need
+it.  This will help us demonstrate demand for the new code, and *might*
+get you on our beta-test list.
+
+
+What is included here?
+----------------------
+
+ETKDOC.ZIP  -- Contains ETKE.INF, the on-line documentation.  Use VIEW to read.
+               Also contains a PostScript and plain-text version.
+ETKEXP.ZIP  -- The export directory (.H files)
+ETKSIM.ZIP  -- ESIMPLE - creates an E frame in a window.
+ETKDIA.ZIP  -- EDIALOG - creates an E-MLE in a dialog.
+ETKDLG.ZIP  -- ESAMPDLG - call a dialog from EPM.  Modal or non-modal.
